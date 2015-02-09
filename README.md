@@ -1,9 +1,14 @@
 # learning-clojure
 
 Install Leinigen[http://leiningen.org/] for automation tools
-`brew install leiningen`
-
+```bash
+brew install leiningen
+```
 Use the REPL for learning syntax
-`lein repl`
-
-
+```bash
+lein repl
+```
+Executing a program
+```bash
+lein run learnclojure.clj
+```
